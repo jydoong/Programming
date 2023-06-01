@@ -7,3 +7,6 @@ ORDER BY MEMBER_ID ASC;
 
 -- 년, 일, 월만 출력하려면 date format 지정해야함
 -- DATE_FORMAT(DATE_OF_BIRTH,'%Y-%m-%d') AS DATE
+
+-- 결측치 제외 출력 코드
+-- 열 이름 IS NOT NULL
